@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-ez3p1imM2EV61Gm51x5VU1cyV11bLJ75QgX1yjsQPDPwc6r9PbF5Vu+nhbcA+6h" crossorigin="anonymous">
+    <title>Flatacuties</title>
+    <script src="script.js"></script>
+</head>
+<style>
+    .stars {
+        color: gold;
+    }
+</style>
+<body>
+    <section>
+        <div class="content">
+            <div class="info">
+                <p>
+                   
+                    Discover the wonders of the animal kingdom with Flatacuties! 
+                    Rate and vote for the cutest animals in this enchanting virtual adventure.
+                </p>
+    
+    <div class="wrapper">
+        <div class="container">
+            <input type="radio" name="slide" id="c1" checked>
+            <label for="c1" class="card">
+                <div class="row">
+                    <div class="icon">1</div>
+                    <div class="title">Flatacuties</div>
+                    <div class="description">
+                        <h4>Cats</h4>
+                        <p>Cats are simply adorable with their fluffy fur, whiskers, and enchanting eyes-
+                            making it impossible to resist their cuteness.</p>
+                    </div>
+                    <div class="stars" data-card="c1">
+                        <i class="fas fa-star" data-rating="1"></i>
+                        <i class="fas fa-star" data-rating="2"></i>
+                        <i class="fas fa-star" data-rating="3"></i>
+                        <i class="fas fa-star" data-rating="4"></i>
+                        <i class="far fa-star" data-rating="5"></i>
+                    </div>
+                    <button class="vote-btn" id="vote-btn-1" onclick="updateVoteCount(1)">Vote</button>
+                    <span class="vote-count" id="vote-count-1">0</span>
+                    <div id="votes-c1">12 votes</div>
+                </div>
+            </label>
+            <input type="radio" name="slide" id="c2" >
+            <label for="c2" class="card">
+                <div class="row">
+                    <div class="icon">2</div>
+                    <div class="title">Flatacuties</div>
+                    <div class="description">
+                        <h4>Pandas</h4>
+                        <p>Pandas charm us with their endearing black and white fur and sweet -
+                            expressions showcasing their undeniable cuteness.</p>
+                    </div>
+                    <div class="stars" data-card="c2">
+                        <i class="fas fa-star" data-rating="1"></i>
+                        <i class="fas fa-star" data-rating="2"></i>
+                        <i class="fas fa-star" data-rating="3"></i>
+                        <i class="fas fa-star" data-rating="4"></i>
+                        <i class="far fa-star" data-rating="5"></i>
+                    </div>
+                    <button class="vote-btn" id="vote-btn-2" onclick="updateVoteCount(2)">Vote</button>
+                    <span class="vote-count" id="vote-count-2">0</span>
+                    
+                    <div id="votes-c2">15 votes</div>
+                </div>
+            </label>
+            <input type="radio" name="slide" id="c3" >
+            <label for="c3" class="card">
+                <div class="row">
+                    <div class="icon">3</div>
+                    <div class="title">Flatacuties</div>
+                    <div class="description">
+                        <h4>Cows</h4>
+                        <p>Cows exude charm with their big, soulful eyes giving comforting cuteness.</p>
+                    </div>
+                    <div class="stars" data-card="c3">
+                        <i class="fas fa-star" data-rating="1"></i>
+                        <i class="fas fa-star" data-rating="2"></i>
+                        <i class="fas fa-star" data-rating="3"></i>
+                        <i class="fas fa-star" data-rating="4"></i>
+                        <i class="far fa-star" data-rating="5"></i>
+                    </div>
+                    <button class="vote-btn" id="vote-btn-3" onclick="updateVoteCount(1)">Vote</button>
+                    <span class="vote-count" id="vote-count-3">0</span>
+                    
+                    <div id="votes-c3">8 votes</div>
+                </div>
+            </label>
+            <input type="radio" name="slide" id="c4" >
+            <label for="c4" class="card">
+                <div class="row">
+                    <div class="icon">4</div>
+                    <div class="title">Flatacuties</div>
+                    <div class="description">
+                        <h4>Dolphins</h4>
+                        <p>Dolphins captivate with their playful intelligence, graceful leaps-
+                            embodying an endearing charm</p>
+                    </div>
+                    <div class="stars" data-card="c4">
+                        <i class="fas fa-star" data-rating="1"></i>
+                        <i class="fas fa-star" data-rating="2"></i>
+                        <i class="fas fa-star" data-rating="3"></i>
+                        <i class="fas fa-star" data-rating="4"></i>
+                        <i class="far fa-star" data-rating="5"></i>
+                    </div>
+                    <button class="vote-btn" id="vote-btn-4" onclick="updateVoteCount(1)">Vote</button>
+                    <span class="vote-count" id="vote-count-4">0</span>
+                    
+                    <div id="votes-c4">20 votes</div>
+                </div>
+            </label>
+            <input type="radio" name="slide" id="c5" checked>
+            <label for="c5" class="card">
+                <div class="row">
+                    <div class="icon">5</div>
+                    <div class="title">Flatacuties</div>
+                    <div class="description">
+                        <h4>Giraffes</h4>
+                        <p>They enchant with their towering grace and distinctive spotted patterns.</p>
+                    </div>
+                    <div class="stars" data-card="c5">
+                        <i class="fas fa-star" data-rating="1"></i>
+                        <i class="fas fa-star" data-rating="2"></i>
+                        <i class="fas fa-star" data-rating="3"></i>
+                        <i class="fas fa-star" data-rating="4"></i>
+                        <i class="far fa-star" data-rating="5"></i>
+                    </div>
+                    <button class="vote-btn" id="vote-btn-5" onclick="updateVoteCount(1)">Vote</button>
+                    <span class="vote-count" id="vote-count-5">0</span>
+                <div id="votes-c5">10 votes</div>
+                </div>
+            </label>
+        </div>
+    </div>
+</body>
+</html>
