@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    
+
+}
+body{
+width: 100%;
+background-image: url('images/grpwrk.jpeg');
+    background-size: cover;
+    background-position: center;}
+
+#dog-image-container{
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 30px;
+margin-bottom: 20px;
+place-items: center;
+padding: 10px 150px;
+/* background: #f69d9d; */
+
+}
+
+.image{
+width: 500px;
+height: 400px;
+object-fit: cover;
+
+}
+
+#dog-breeds{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr;
+ place-items: start;
+ padding: 10px 20px;
+background-color: #19b62e4a;
+margin: 20px 200px;
+
+}
+
+#dog-breeds li{
+    font-size: 15px;
+    align-items: start;
+    font-family: 'ubuntu', sans-serif;
+    background-color: rgb(57, 87, 45);
+    color: hsl(0, 25%, 97%);
+    margin-bottom: 5px;
+    width: 120px;
+    padding: 2px;
+    font-weight: 400;
+    border-radius: 30px;
+    padding-left: 5px;
+}
+
+label{
+    color: rgb(9, 100, 9);
+    font-weight: 300;
+    font-size:larger;
+    
+}
