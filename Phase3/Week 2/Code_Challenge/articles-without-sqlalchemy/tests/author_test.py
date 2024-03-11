@@ -4,12 +4,12 @@ from magazine import Magazine
 
 class TestAuthor(unittest.TestCase):
     def setUp(self):
-        # Create instances needed for testing
-        self.author = Author("John Doe")
+        #  instances needed for testing
+        self.author = Author"Nicole Onyiego")
         self.magazine = Magazine("Tech Magazine", "Technology")
 
     def test_author_creation(self):
-        self.assertEqual(self.author.name, "John Doe")
+        self.assertEqual(self.author.name,"Nicole Onyiego")
         self.assertEqual(self.author.articles, [])
 
     def test_add_article(self):
