@@ -5,8 +5,8 @@ from article import Article
 
 class TestArticle(unittest.TestCase):
     def setUp(self):
-        # Create instances needed for testing
-        self.author = Author("John Doe")
+    
+        self.author = Author("Nicole")
         self.magazine = Magazine("Tech Magazine", "Technology")
 
     def test_article_creation(self):
