@@ -1,10 +1,10 @@
-#Articles-without SQLAlchemy
+##Articles-without SQLAlchemy
 
 This project is a simple implementation of a Magazine domain with Author, Article, and Magazine classes. The project demonstrates a many-to-many relationship between Authors and Magazines.
 
 ## Description
 
-THis is a python Application demonstrating a many-to-many relationship between Authors and Magazines.Through simple implementations of Author ,Article and magazine classes.This explores managing comlex data relationships in an Object-oriented programming  framework.its main goal was to learn and practice concepts related to database modelling and object oriented programming.
+This is a python Application demonstrating a many-to-many relationship between Authors and Magazines.Through simple implementations of Author ,Article and magazine classes.This explores managing comlex data relationships in an Object-oriented programming  framework.its main goal was to learn and practice concepts related to database modelling and object oriented programming.
 
 ## Getting Started
 
